@@ -1,0 +1,35 @@
+{
+  "query": [
+    {
+      "code": "Tollskrárnúmer",
+      "selection": {
+        "filter": "item",
+        "values": ["87111001", "87111009", "87112001", "87112002", "87113001", "87113002", "87114001", "87114002", "87115001", "87115002", "87116010", "87116090", "87119010", "87119031", "87119039", "87119090"]
+      }
+    },
+    {
+      "code": "Land",
+      "selection": {
+        "filter": "item",
+        "values": ["AF", "AL", "DZ", "AS", "AD", "AO", "AI", "AG", "AR", "AM", "AW", "AT", "AZ", "AX", "AU", "BS", "US", "UM", "BD", "BB", "BH", "BY", "BE", "BZ", "BJ", "BM", "BQ", "BA", "BW", "BV", "BO", "BR", "IO", "GB", "BN", "BG", "BF", "BI", "BT", "CV", "KY", "TD", "CL", "CC", "CO", "CK", "CR", "CI", "CW", "DK", "DJ", "DM", "DO", "EG", "EE", "EC", "SV", "ER", "SZ", "ET", "FK", "FJ", "PH", "FI", "FR", "GF", "PF", "TF", "FO", "GA", "GM", "GE", "GH", "GI", "GN", "GW", "GD", "GR", "GL", "GP", "GU", "GT", "GG", "GY", "HT", "HM", "NL", "HN", "HK", "IN", "ID", "IQ", "IR", "IE", "IL", "IT", "JM", "JP", "YE", "JE", "CX", "VI", "VG", "JO", "KH", "CM", "CA", "KZ", "QA", "KE", "CN", "KI", "CD", "CG", "KM", "KP", "KR", "HR", "KW", "CU", "KG", "CY", "LA", "LS", "LV", "LI", "LT", "LB", "LR", "LY", "LU", "MG", "MO", "MY", "MW", "MV", "ML", "MT", "MA", "MH", "MQ", "YT", "MR", "MU", "MX", "CF", "GQ", "FM", "MD", "MN", "ME", "MS", "MC", "MZ", "MM", "IM", "NA", "NR", "NP", "NI", "NU", "NE", "NG", "MP", "MK", "NO", "NF", "NC", "NZ", "OM", "NN", "PK", "PW", "PS", "PA", "PG", "PY", "VA", "PE", "PN", "PT", "PL", "PR", "RE", "RO", "RU", "RW", "SB", "AE", "WS", "SM", "BL", "SH", "KN", "LC", "SX", "MF", "PM", "VC", "ST", "SA", "SN", "RS", "SC", "SG", "SL", "SK", "SI", "SO", "ES", "LK", "ZA", "GS", "AQ", "SS", "SD", "SR", "SJ", "CH", "SE", "SY", "TJ", "TW", "TZ", "CZ", "TH", "TL", "TK", "TO", "TG", "TT", "TC", "TN", "TM", "TV", "TR", "HU", "UY", "UG", "UA", "UZ", "VU", "VE", "EH", "VN", "WF", "ZM", "ZW", "DE"]
+      }
+    },
+    {
+      "code": "Mánuður",
+      "selection": {
+        "filter": "item",
+        "values": ["2017M01", "2017M02", "2017M03", "2017M04", "2017M05", "2017M06", "2017M07", "2017M08", "2017M09", "2017M10", "2017M11", "2017M12", "2018M01", "2018M02", "2018M03", "2018M04", "2018M05", "2018M06", "2018M07", "2018M08", "2018M09", "2018M10", "2018M11", "2018M12", "2019M01", "2019M02", "2019M03", "2019M04", "2019M05", "2019M06", "2019M07", "2019M08"]
+      }
+    },
+    {
+      "code": "Eining",
+      "selection": {
+        "filter": "item",
+        "values": ["kg", "fob", "cif", "vEin"]
+      }
+    }
+    ],
+  "response": {
+    "format": "json"
+  }
+} 
